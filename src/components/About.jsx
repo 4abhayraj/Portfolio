@@ -18,7 +18,7 @@ const About = () => {
             className='w-72 h-80 rounded object-cover mb-8 md:mb-0 '  />
             <div className='flex-1'>
             <p className='text-lg mb-8'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus assumenda mollitia odio hic sit? Distinctio quibusdam ullam blanditiis alias! Incidunt cum nemo eligendi eveniet doloremque odit repudiandae aspernatur laboriosam.
+              Full-stack developer skilled in creating seamless, end-to-end web solutions. I'm passionate about writing clean code and building intuitive user interfaces backed by robust server-side logic.
             </p>
             <div className='space-y-4'>
                <div className='flex items-center'>
@@ -57,23 +57,6 @@ const About = () => {
                 <label htmlFor='javascript' className='w-2/12'>JavaScript</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                     <div className='bg-gradient-to-r from-indigo-700 to-purple-600 h-2.5 rounded transform transition-transform duration-300 hover:scale-105 w-8/12'>
-                    </div>
-                </div>
-               </div>
-               {/* ============================= */}
-               <div className='flex items-center'>
-                <label htmlFor='python' className='w-2/12'>Python</label>
-                <div className='grow bg-gray-800 rounded-full h-2.5'>
-                    <div className='bg-gradient-to-r from-pink-700 to-yellow-600 h-2.5 rounded transform transition-transform duration-300 hover:scale-105 w-11/12'>
-                    </div>
-                </div>
-               </div>
-               {/* ========================= */}
-
-               <div className='flex items-center'>
-                <label htmlFor='java' className='w-2/12'>Java</label>
-                <div className='grow bg-gray-800 rounded-full h-2.5'>
-                    <div className='bg-gradient-to-r from-indigo-700 to-purple-600 h-2.5 rounded transform transition-transform duration-300 hover:scale-105 w-7/12'>
                     </div>
                 </div>
                </div>

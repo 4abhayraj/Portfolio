@@ -15,10 +15,11 @@ const About = () => {
               containerWidth="262px"
               imageHeight="320px"
               imageWidth="262px"
-            className='w-72 h-80 rounded object-cover mb-8 md:mb-0 '  />
+            className='w-72 h-80 rounded object-cover mb-8 md:mb-0 z-0 '  />
+            {/* =========================================================================================== */}
             <div className='flex-1'>
             <p className='text-lg mb-8'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus assumenda mollitia odio hic sit? Distinctio quibusdam ullam blanditiis alias! Incidunt cum nemo eligendi eveniet doloremque odit repudiandae aspernatur laboriosam.
+              Full-stack developer skilled in creating seamless, end-to-end web solutions. I'm passionate about writing clean code and building intuitive user interfaces backed by robust server-side logic.
             </p>
             <div className='space-y-4'>
                <div className='flex items-center'>
@@ -28,7 +29,7 @@ const About = () => {
                     </div>
                 </div>
                </div>
-               {/* ================ */}
+       {/* ================ */}
                 <div className='flex items-center'>
                 <label htmlFor='reactjs' className='w-2/12'>React JS</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
@@ -36,7 +37,7 @@ const About = () => {
                     </div>
                 </div>
                </div>
-{/* ======================= */}
+        {/* ======================= */}
                  <div className='flex items-center'>
                 <label htmlFor='nodejs' className='w-2/12'>Node JS</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
@@ -44,15 +45,15 @@ const About = () => {
                     </div>
                 </div>
                </div>
-{/*==================  */}
-<div className='flex items-center'>
+        {/*==================  */}
+                <div className='flex items-center'>
                 <label htmlFor='expressjs' className='w-2/12'>Express JS</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                     <div className='bg-gradient-to-r from-pink-700 to-yellow-600 h-2.5 rounded transform transition-transform duration-300 hover:scale-105 w-6/12'>
                     </div>
                 </div>
                </div>
-               {/* ====================== */}
+        {/* ====================== */}
                <div className='flex items-center'>
                 <label htmlFor='javascript' className='w-2/12'>JavaScript</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
@@ -60,26 +61,8 @@ const About = () => {
                     </div>
                 </div>
                </div>
-               {/* ============================= */}
-               <div className='flex items-center'>
-                <label htmlFor='python' className='w-2/12'>Python</label>
-                <div className='grow bg-gray-800 rounded-full h-2.5'>
-                    <div className='bg-gradient-to-r from-pink-700 to-yellow-600 h-2.5 rounded transform transition-transform duration-300 hover:scale-105 w-11/12'>
-                    </div>
-                </div>
-               </div>
-               {/* ========================= */}
-
-               <div className='flex items-center'>
-                <label htmlFor='java' className='w-2/12'>Java</label>
-                <div className='grow bg-gray-800 rounded-full h-2.5'>
-                    <div className='bg-gradient-to-r from-indigo-700 to-purple-600 h-2.5 rounded transform transition-transform duration-300 hover:scale-105 w-7/12'>
-                    </div>
-                </div>
-               </div>
-
             </div>
-            {/* =========---------====----------=======-------- */}
+        {/* =========---------====----------=======-------- */}
                 <div className='mt-12 flex  justify-between tet-center'>
                   <div>
                     <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-600'>
@@ -87,13 +70,9 @@ const About = () => {
                     </h3>
                       <p>
                          Years Experience
-                      </p>
-                    
-                  </div>
-
-                
-                {/* ============ */}
-                
+                      </p>                  
+                  </div>              
+        {/* ============ */}                
                   <div>
                     <h3 className='text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-700 to-purple-600'>
                       2+ 
